@@ -8,8 +8,3 @@ icon.addEventListener("click", () => {
     ul.classList.toggle("show");
 });
 
-// document.querySelectorAll(".nav-links").forEach(n => n.
-//     addEventListener("click", () => {
-//         icon.classList.remove("active");
-//         ul.classList.remove("active");
-//     }));
