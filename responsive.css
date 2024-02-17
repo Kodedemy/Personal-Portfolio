@@ -6,6 +6,18 @@
     label.link {
         margin-right: -690px;
     }
+
+    /* div.intro .arror{
+
+    } */
+
+    div.intro{
+        text-align: center;
+    }
+
+    section.sec-two{
+        padding-top: 600px;
+    }
 }
 
 @media screen and (max-width: 1146px) {
@@ -228,6 +240,23 @@
 
     label.link2 {
         margin-right: 20%;
+    }
+
+    div.bowl{
+        /* display: flex; */
+        /* justify-content: space-around; */
+    }
+
+    img.shape{
+        width: 30%;
+    }
+
+    div.intro h1{
+        font-size: 25px;
+    }
+
+    div.intro p{
+        font-size: 12px;
     }
 }
 
