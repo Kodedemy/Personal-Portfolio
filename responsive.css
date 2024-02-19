@@ -12,11 +12,11 @@
     } */
 
     div.intro{
-        text-align: center;
+        text-align: left;
     }
 
     section.sec-two{
-        padding-top: 600px;
+        padding-top: 100px;
     }
 }
 
@@ -28,15 +28,66 @@
     label.link {
         margin-right: -700px;
     }
+
+    div.intro{
+        text-align: left;
+    }
+
+    /* section.sec-two{
+        padding-top: 100px;
+    } */
+}
+
+@media screen and (max-width: 1068px) {
+    div.intro{
+        text-align: left;
+    }
+
+    /* section.sec-two{
+        padding-top: 100px;
+    } */
 }
 
 @media screen and (max-width: 1084px) {
+    label.logo img {
+       padding: 16px 80px;
+    }
+
     nav ul {
         margin-right: 400px;
     }
 
     label.link {
         margin-right: -650px;
+    }
+
+    div.intro{
+        text-align: left;
+        padding-left: 35px;
+    }
+
+    div.intro h1{
+        font-size: 27px;
+    }
+
+    div.intro p{
+        font-size: 14px;
+    }
+
+    img.shape{
+        width: 20%;
+    }
+
+    div.banner .set-up{
+        width: 37%;
+    }
+
+    section.sec-two{
+        padding-top: 80px;
+    }
+
+    div.clients h1{
+        font-size: 23px;
     }
 
 }
@@ -56,6 +107,12 @@
 
     label.link {
         margin-right: -650px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    div.intro{
+        text-align: left;
     }
 }
 
@@ -142,6 +199,10 @@
     nav ul.show {
         left: 0px;
     }
+
+    div.intro{
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 830px) {
@@ -165,7 +226,7 @@
         display: block;
         /* float: left; */
         margin-left: 680px;
-        margin-top: -74px;
+        margin-top: -54px;
         position: fixed;
     }
 
@@ -203,7 +264,7 @@
         display: block;
         /* float: left; */
         margin-left: 500px;
-        margin-top: -68px;
+        margin-top: -58px;
         position: fixed;
     }
 
@@ -228,7 +289,7 @@
         display: block;
         /* float: left; */
         margin-left: 400px;
-        margin-top: -68px;
+        margin-top: -58px;
         position: fixed;
     }
 
@@ -262,12 +323,12 @@
         display: block;
         /* float: left; */
         margin-left: 350px;
-        margin-top: -68px;
+        margin-top: -49px;
         position: fixed;
     }
 
     label.logo img {
-        padding: 25px 10px;
+        padding: -29px 10px;
         margin-left: 40px;
         width: 7%;
     }
@@ -284,6 +345,10 @@
     label.link2 a {
         font-size: 20px;
     }
+}
+
+@media screen and (max-width: 400px) {
+    
 }
 
 @media screen and (max-width: 375px) {

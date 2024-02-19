@@ -131,6 +131,7 @@ section.sec-one {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color-dodge;
+    
 }
 
 div.banner{
@@ -176,4 +177,27 @@ section.sec-two{
     /* align-items: center; */
     text-align: center;
     color: var(--third-color);
+    /* box-shadow: 7px -4px 3px var(--nineth-color); */
+}
+
+div.clients h1{
+    color: var(--nineth-color);
+}
+
+div.cgd{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
+div.clients-div{
+    width: 240px;
+    height: 80px;
+    border: 1px solid var(--first-color);
+    color: var(--third-color);
+    font-family: var(--first-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
 }
