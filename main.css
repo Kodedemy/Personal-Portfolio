@@ -66,9 +66,15 @@ nav a {
     color: var(--third-color);
     font-size: 18px;
     font-family: var(--first-font-family--);
+    
+    transition: 0.7s ease;
 }
 
 nav a:hover {
+    color: var(--nineth-color);
+}
+
+nav a:active{
     color: var(--nineth-color);
 }
 
@@ -155,7 +161,6 @@ div.intro .arror{
 
 img.shape{
     width: 30%;
-    /* margin-left: 150px; */
 }
 
 div.intro h1{
@@ -180,8 +185,16 @@ section.sec-two{
     /* box-shadow: 7px -4px 3px var(--nineth-color); */
 }
 
-div.clients h1{
+div.clients h3{
     color: var(--nineth-color);
+    /* font-family: var(--third-font-family); */
+}
+
+div.clients p{
+    letter-spacing: 2px;
+    color: var(--tenth-color);
+    /* font-family: var(--third-font-family); */
+
 }
 
 div.cgd{
@@ -192,12 +205,32 @@ div.cgd{
 }
 
 div.clients-div{
-    width: 240px;
+    width: 230px;
     height: 80px;
-    border: 1px solid var(--first-color);
+    border: 1px solid var(--tenth-color);
     color: var(--third-color);
     font-family: var(--first-font-family);
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    
+}
+
+div.avalon {
+    display: flex;
+    justify-content: center;
+    /* padding: 3rem 0rem; */
+}
+
+div.avalon h3{
+    padding-top: 25px;
+    font-weight: 400;
+}
+
+.logo9c {
+    margin-top: -4.5rem;
+}
+
+.fc{
+    margin-top: 10px;
 }

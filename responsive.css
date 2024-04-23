@@ -11,11 +11,11 @@
 
     } */
 
-    div.intro{
+    div.intro {
         text-align: left;
     }
 
-    section.sec-two{
+    section.sec-two {
         padding-top: 100px;
     }
 }
@@ -29,7 +29,7 @@
         margin-right: -700px;
     }
 
-    div.intro{
+    div.intro {
         text-align: left;
     }
 
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 1068px) {
-    div.intro{
+    div.intro {
         text-align: left;
     }
 
@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 1084px) {
     label.logo img {
-       padding: 16px 80px;
+        padding: 16px 80px;
     }
 
     nav ul {
@@ -61,32 +61,32 @@
         margin-right: -650px;
     }
 
-    div.intro{
+    div.intro {
         text-align: left;
         padding-left: 35px;
     }
 
-    div.intro h1{
+    div.intro h1 {
         font-size: 27px;
     }
 
-    div.intro p{
+    div.intro p {
         font-size: 14px;
     }
 
-    img.shape{
+    img.shape {
         width: 20%;
     }
 
-    div.banner .set-up{
+    div.banner .set-up {
         width: 37%;
     }
 
-    section.sec-two{
+    section.sec-two {
         padding-top: 80px;
     }
 
-    div.clients h1{
+    div.clients h1 {
         font-size: 23px;
     }
 
@@ -111,7 +111,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    div.intro{
+    div.intro {
         text-align: left;
     }
 }
@@ -139,7 +139,7 @@
         display: block;
         /* float: left; */
         margin-left: 800px;
-        margin-top: -74px;
+        margin-top: -59px;
         position: fixed;
     }
 
@@ -157,6 +157,7 @@
 
     nav ul {
         padding-top: 7%;
+        margin-top: -6px;
         float: right;
         left: -1000px;
         position: fixed;
@@ -200,8 +201,24 @@
         left: 0px;
     }
 
-    div.intro{
-        text-align: center;
+    div.intro {
+        text-align: left;
+    }
+
+    div.intro h1 {
+        /* padding-top: -20px; */
+        font-size: 25px;
+        font-weight: 900;
+    }
+
+    div.intro p {
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    div.banner .set-up {
+        width: 40%;
+        padding-top: 180px;
     }
 }
 
@@ -250,8 +267,12 @@
         display: block;
         /* float: left; */
         margin-left: 600px;
-        margin-top: -68px;
+        margin-top: -54px;
         position: fixed;
+    }
+
+    nav ul {
+        margin-top: 4px;
     }
 
     label.link2 {
@@ -303,17 +324,17 @@
         margin-right: 20%;
     }
 
-   
 
-    img.shape{
+
+    img.shape {
         width: 30%;
     }
 
-    div.intro h1{
+    div.intro h1 {
         font-size: 25px;
     }
 
-    div.intro p{
+    div.intro p {
         font-size: 12px;
     }
 }
@@ -347,9 +368,7 @@
     }
 }
 
-@media screen and (max-width: 400px) {
-    
-}
+@media screen and (max-width: 400px) {}
 
 @media screen and (max-width: 375px) {
     nav #icon {
