@@ -206,7 +206,7 @@ div.clients h3{
 div.clients p{
     letter-spacing: 2px;
     color: var(--tenth-color);
-    /* font-family: var(--third-font-family); */
+    font-family: var(--third-font-family);
 
 }
 
