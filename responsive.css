@@ -131,6 +131,7 @@
     label.logo h1 {
         font-family: var(--forth-font-family);
         display: block;
+        letter-spacing: 2px;
         padding-top: 35px;
         color: var(--nineth-color);
         /* padding-right: 20px; */
