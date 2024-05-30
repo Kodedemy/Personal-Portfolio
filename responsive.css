@@ -129,6 +129,7 @@
     }
 
     label.logo h1 {
+        font-family: var(--forth-font-family);
         display: block;
         padding-top: 35px;
         color: var(--nineth-color);
