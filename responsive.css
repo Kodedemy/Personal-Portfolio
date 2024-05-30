@@ -432,6 +432,12 @@
     }
 }
 
+@media screen and (max-width: 370px){
+    nav #icon{
+        margin-top: -50px;
+    }
+}
+
 @media screen and (max-width: 350px) {
         nav #icon{
             margin-top: -50px;
