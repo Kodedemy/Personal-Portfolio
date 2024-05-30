@@ -136,7 +136,6 @@ label.link2 {
 }
 
 section.sec-one {
-    /* padding: 200px 0px; */
     background-color: var(--second-color);
     width: 100%;
     height: 100vh;
@@ -146,26 +145,23 @@ section.sec-one {
 
 div.bg-image{
     z-index: -1;
-    /* position: relative; */
     background-image: url(./IMG/Background.jpg);
     filter: blur(8px);
     -webkit-filter: blur(8px);
     height: 100%;
-    /* z-index: 0; */
     background-color: var(--second-color);
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color-dodge;
 }
 
-div.banner{
+/* div.banner{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-}
+} */
 
 div.intro {
     color: var(--tenth-color);
@@ -173,13 +169,13 @@ div.intro {
     letter-spacing: 5px;
 }
 
-div.intro .arror{
+/* div.intro .arror{
     margin-left: 50px;
-}
+} */
 
-img.shape{
+/* img.shape{
     width: 30%;
-}
+} */
 
 div.banner-text{
     position: relative;
