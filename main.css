@@ -7,16 +7,19 @@
     transition: 0.75s;
 }
 
+/* @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap'); */
+
 :root {
     --first-font-family: 'Poppins';
     --second-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --third-font-family: 'Monotype Corsiva';
+    --forth-font-family: "Akronim", system-ui;
     --first-color: rgb(182, 181, 181);
     --second-color: #020223;
-    --sixth-color: #020223e0;
+    --sixth-color: #02022378;
     --third-color: white;
     --forth-color: #037d95;
-    --fifth-color: rgba(17, 17, 17, 0.986);
+    --fifth-color: rgb(17, 17, 17);
     --nineth-color: #00b4d8;
     --tenth-color: #caf0f8;
 
@@ -32,13 +35,17 @@ body {
 }
 
 nav {
+    z-index: 99;
     font-family: var(--second-font-family);
     position: fixed;
     height: 80px;
     width: 100%;
     background-color: var(--sixth-color);
-    /* border-bottom: 1px solid white; */
-    box-shadow: 14px -4px 10px var(--nineth-color);
+    z-index: 1;
+    /* position: absolute; */
+    /* background: blur(8px); */
+        /* border-bottom: 1px solid white; */
+    /* box-shadow: 14px -4px 10px var(--nineth-color); */
 }
 
 label.logo img {
@@ -133,11 +140,24 @@ section.sec-one {
     background-color: var(--second-color);
     width: 100%;
     height: 100vh;
-    background-image: url(./IMG/image2.png) ;
+  
+    
+}
+
+div.bg-image{
+    z-index: -1;
+    /* position: relative; */
+    background-image: url(./IMG/Background.jpg);
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;
+    /* z-index: 0; */
+    background-color: var(--second-color);
+
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: color-dodge;
-    
 }
 
 div.banner{
@@ -145,13 +165,11 @@ div.banner{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    /* gap: 220px; */
 }
 
 div.intro {
     color: var(--tenth-color);
-    /* padding-top: 20px; */
-    font-family: var(--third-font-family);
+    font-family: var(--forth-font-family);
     letter-spacing: 5px;
 }
 
@@ -163,12 +181,22 @@ img.shape{
     width: 30%;
 }
 
+div.banner-text{
+    position: relative;
+    z-index: 0;
+    margin-top: -400px;
+    align-items: center;
+}
+
 div.intro h1{
-    font-size: 32px;
+    font-size: 45px;
+    text-align: center;
 }
 
 div.intro p{
-
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
     font-family: var(--first-font-family);
     letter-spacing: 2px;
 }
@@ -186,6 +214,7 @@ section.sec-two{
 }
 
 div.clients h3{
+    padding-top: 35px;
     color: var(--nineth-color);
     /* font-family: var(--third-font-family); */
 }
@@ -222,15 +251,26 @@ div.avalon {
     /* padding: 3rem 0rem; */
 }
 
+div.avalon img{
+    padding-top: 18px;
+}
+
 div.avalon h3{
     padding-top: 25px;
     font-weight: 400;
 }
 
 .logo9c {
-    margin-top: -4.5rem;
+    margin-top: -2.5rem;
 }
 
 .fc{
-    margin-top: 10px;
+    margin-top: 18px;
+}
+
+.nexux{
+    margin-top: 25px;
+}
+.rena{
+    margin-top: 16px;
 }

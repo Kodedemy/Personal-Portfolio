@@ -1,4 +1,4 @@
-
+// NAV ICON 
 let icon = document.querySelector("#icon");
 let ul = document.querySelector("ul");
 
