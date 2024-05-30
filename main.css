@@ -156,26 +156,11 @@ div.bg-image{
     background-blend-mode: color-dodge;
 }
 
-/* div.banner{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-} */
-
 div.intro {
     color: var(--tenth-color);
     font-family: var(--forth-font-family);
     letter-spacing: 5px;
 }
-
-/* div.intro .arror{
-    margin-left: 50px;
-} */
-
-/* img.shape{
-    width: 30%;
-} */
 
 div.banner-text{
     position: relative;
@@ -213,7 +198,9 @@ section.sec-two{
 div.clients h3{
     padding-top: 35px;
     color: var(--nineth-color);
-    /* font-family: var(--third-font-family); */
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: var(--forth-font-family);
 }
 
 div.clients p{
