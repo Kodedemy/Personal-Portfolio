@@ -190,6 +190,7 @@ div.intro h1{
 }
 
 div.intro p{
+    font-weight: 700;
     padding-top: 10px;
     font-size: 18px;
     text-align: center;
