@@ -67,11 +67,12 @@
     }
 
     div.intro h1 {
-        font-size: 27px;
+        font-size: 40px;
     }
 
     div.intro p {
         font-size: 14px;
+        letter-spacing: 3px;
     }
 
     img.shape {
@@ -222,7 +223,7 @@
 
     div.intro h1 {
         /* padding-top: -20px; */
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 900;
     }
 
@@ -301,6 +302,15 @@
 
     label.link2 {
         margin-right: 27%;
+    }
+
+    div.banner-text{
+        padding-right: 25px; 
+        font-weight: 700; 
+    }
+
+    div.intro h1{
+        font-size: 40px;
     }
 }
 
