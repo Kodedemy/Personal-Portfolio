@@ -7,8 +7,6 @@
     transition: 0.75s;
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap'); */
-
 :root {
     --first-font-family: 'Poppins';
     --second-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,14 +40,9 @@ nav {
     width: 100%;
     background-color: var(--sixth-color);
     z-index: 1;
-    /* position: absolute; */
-    /* background: blur(8px); */
-        /* border-bottom: 1px solid white; */
-    /* box-shadow: 14px -4px 10px var(--nineth-color); */
 }
 
 label.logo img {
-    /* position: fixed; */
     width: 4%;
     padding: 12px 100px;
 }
@@ -90,7 +83,6 @@ label.link {
     padding: 10px 15px;
     margin-right: -780px;
     margin-top: 18px;
-    /* color: var(--second-color); */
     border: 1px solid var(--third-color);
     border-radius: 6px;
     background-color: var(--forth-color);
@@ -146,8 +138,8 @@ section.sec-one {
 div.bg-image{
     z-index: -1;
     background-image: url(./IMG/Background.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     height: 100%;
     background-color: var(--second-color);
     background-position: center;
@@ -188,11 +180,8 @@ div.banner img{
 }
 
 section.sec-two{
-    /* justify-content: center; */
-    /* align-items: center; */
     text-align: center;
     color: var(--third-color);
-    /* box-shadow: 7px -4px 3px var(--nineth-color); */
 }
 
 div.clients h3{
@@ -206,7 +195,7 @@ div.clients h3{
 div.clients p{
     letter-spacing: 2px;
     color: var(--tenth-color);
-    font-family: var(--third-font-family);
+    font-family: var(--second-font-family);
 
 }
 
@@ -232,7 +221,6 @@ div.clients-div{
 div.avalon {
     display: flex;
     justify-content: center;
-    /* padding: 3rem 0rem; */
 }
 
 div.avalon img{
