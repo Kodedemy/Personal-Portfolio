@@ -188,9 +188,9 @@
         /* color: var(--second-color); */
     }
 
-    nav a:hover{
+    nav a:hover {
         color: var(--second-color);
-    } 
+    }
 
     label.link {
         display: none;
@@ -205,9 +205,9 @@
         padding: 10px 20px;
     }
 
-    label.link2:hover{
+    label.link2:hover {
         border-color: var(--second-color);
-    } 
+    }
 
     nav ul.show {
         left: 0px;
@@ -217,7 +217,7 @@
         text-align: left;
     }
 
-    div.banner-text{
+    div.banner-text {
         z-index: 0;
     }
 
@@ -248,7 +248,7 @@
         padding-top: 180px;
     }
 
-    section.sec-two{
+    section.sec-two {
         margin-top: -50px
     }
 }
@@ -292,8 +292,12 @@
         display: block;
         /* float: left; */
         margin-left: 600px;
-        margin-top: -54px;
+        margin-top: -50px;
         position: fixed;
+    }
+
+    .logo h1 {
+        margin-top: -7px;
     }
 
     nav ul {
@@ -304,12 +308,12 @@
         margin-right: 27%;
     }
 
-    div.banner-text{
-        padding-right: 25px; 
-        font-weight: 700; 
+    div.banner-text {
+        padding-right: 25px;
+        font-weight: 700;
     }
 
-    div.intro h1{
+    div.intro h1 {
         font-size: 40px;
     }
 }
@@ -344,7 +348,7 @@
         display: block;
         /* float: left; */
         margin-left: 400px;
-        margin-top: -58px;
+        margin-top: -56px;
         position: fixed;
     }
 
@@ -409,7 +413,28 @@
     }
 }
 
-@media screen and (max-width: 400px) {}
+@media screen and (max-width: 400px) {
+    nav #icon {
+        display: block;
+        /* float: left; */
+        margin-left: 330px;
+        margin-top: -50px;
+        position: fixed;
+    }
+
+    .logo {
+        margin-left: -20px;
+    }
+
+    .logo h1 {
+        margin-top: -7px;
+        /* font-size: -10px; */
+    }
+
+    div.banner-text {
+        margin-top: -350px;
+    }
+}
 
 @media screen and (max-width: 375px) {
     nav #icon {
@@ -444,30 +469,30 @@
     }
 }
 
-@media screen and (max-width: 370px){
-    label.logo img{
+@media screen and (max-width: 370px) {
+    label.logo img {
         margin-left: 10px;
     }
 
-    nav #icon{
+    nav #icon {
         margin-top: -50px;
     }
 
-    div.intro h1{
+    div.intro h1 {
         font-size: 30px;
-        margin-left: -20px;
+        margin-left: -4px;
     }
 
-    div.intro p{
+    div.intro p {
         font-size: 15px;
-        margin-left: -18px;
+        margin-left: -5px;
     }
 }
 
 @media screen and (max-width: 350px) {
-        nav #icon{
-            margin-top: -50px;
-        }
+    nav #icon {
+        margin-top: -50px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -497,25 +522,25 @@
         font-size: 15px;
     }
 
-    div.intro h1{
-        text-align: center;  
+    div.intro h1 {
+        text-align: center;
         padding-bottom: 10px;
         margin-left: -20px;
     }
 
-    div.intro p{
+    div.intro p {
         text-align: center;
         margin-left: -20px;
     }
 
-    div.intro .bowl{
+    div.intro .bowl {
         /* align-items: center; */
         margin-top: -40px;
         margin-left: -20px;
         /* display: none; */
     }
 
-    div.bowl .shape{
+    div.bowl .shape {
         /* display: none; */
         margin-left: 140px;
     }
