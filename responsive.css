@@ -380,8 +380,13 @@
 
 @media screen and (max-width: 440px) {
     nav #icon{
-        margin-left: 390px;
-    }  
+        margin-left: 360px;
+        margin-top: -50px;
+    } 
+    
+    label.logo{
+        margin-left: -10px;
+    }
 }
 
 @media screen and (max-width: 425px) {
