@@ -390,6 +390,11 @@
 
     label.logo h1{
         margin-top: -5px;
+        text-align: end;
+    }
+
+    label.link2 {
+        margin-right: 15%;
     }
 }
 
