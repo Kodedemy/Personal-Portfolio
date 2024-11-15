@@ -387,6 +387,10 @@
     label.logo{
         margin-left: -10px;
     }
+
+    label.logo h1{
+        margin-top: -5px;
+    }
 }
 
 @media screen and (max-width: 425px) {
