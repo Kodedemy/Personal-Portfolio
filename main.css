@@ -66,7 +66,7 @@ nav a {
     color: var(--third-color);
     font-size: 18px;
     font-family: var(--first-font-family--);
-    
+
     transition: 0.7s ease;
 }
 
@@ -74,7 +74,7 @@ nav a:hover {
     color: var(--nineth-color);
 }
 
-nav a:active{
+nav a:active {
     color: var(--nineth-color);
 }
 
@@ -131,11 +131,11 @@ section.sec-one {
     background-color: var(--second-color);
     width: 100%;
     height: 100vh;
-  
-    
+
+
 }
 
-div.bg-image{
+div.bg-image {
     z-index: -1;
     background-image: url(./IMG/Background.jpg);
     filter: blur(5px);
@@ -154,19 +154,19 @@ div.intro {
     letter-spacing: 5px;
 }
 
-div.banner-text{
+div.banner-text {
     position: relative;
     z-index: 0;
     margin-top: -400px;
     align-items: center;
 }
 
-div.intro h1{
+div.intro h1 {
     font-size: 60px;
     text-align: center;
 }
 
-div.intro p{
+div.intro h3 {
     font-weight: 900;
     padding-top: 10px;
     font-size: 18px;
@@ -175,16 +175,16 @@ div.intro p{
     letter-spacing: 4px;
 }
 
-div.banner img{
+div.banner img {
     padding-top: 150px;
 }
 
-section.sec-two{
+section.sec-two {
     text-align: center;
     color: var(--third-color);
 }
 
-div.clients h3{
+div.clients h3 {
     padding-top: 35px;
     color: var(--nineth-color);
     font-size: 25px;
@@ -192,21 +192,21 @@ div.clients h3{
     font-family: var(--forth-font-family);
 }
 
-div.clients p{
+div.clients p {
     letter-spacing: 2px;
     color: var(--tenth-color);
     font-family: var(--second-font-family);
 
 }
 
-div.cgd{
+div.cgd {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem 0rem;
 }
 
-div.clients-div{
+div.clients-div {
     width: 230px;
     height: 80px;
     border: 1px solid var(--tenth-color);
@@ -215,7 +215,7 @@ div.clients-div{
     font-size: 15px;
     font-weight: 400;
     text-align: center;
-    
+
 }
 
 div.avalon {
@@ -223,11 +223,11 @@ div.avalon {
     justify-content: center;
 }
 
-div.avalon img{
+div.avalon img {
     padding-top: 18px;
 }
 
-div.avalon h3{
+div.avalon h3 {
     padding-top: 25px;
     font-weight: 400;
 }
@@ -236,13 +236,31 @@ div.avalon h3{
     margin-top: -2.5rem;
 }
 
-.fc{
+.fc {
     margin-top: 18px;
 }
 
-.nexux{
+.nexux {
     margin-top: 25px;
-    }
-.rena{
+}
+
+.rena {
     margin-top: 16px;
 }
+
+div.biography{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.biography .span {
+    width: 400px;
+    height: 600px;
+    margin-left: 95px;
+    padding-top: 60px;
+    border: 1px solid var(--tenth-color);
+}
+
+div.biography img {
+    width: 80%;
+    }
