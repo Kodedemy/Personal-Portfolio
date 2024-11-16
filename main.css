@@ -254,13 +254,13 @@ div.biography{
 }
 
 div.biography .span {
-    width: 400px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     margin-left: 95px;
-    padding-top: 60px;
+    padding-top: 15px;
     border: 1px solid var(--tenth-color);
 }
 
 div.biography img {
-    width: 80%;
+    width: 90%;
     }
