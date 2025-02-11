@@ -248,19 +248,141 @@ div.avalon h3 {
     margin-top: 16px;
 }
 
-div.biography{
+.general-biography-text {
+    font-family: var(--first-font-family);
+    color: var(--nineth-color);
+    /* letter-spacing: 5px; */
+    font-size: 20px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+
+.general-biography h4 {
+    font-size: 30px;
+    text-align: left;
+    line-height: 30px;
+    color: var(--tenth-color);
+    padding-left: 100px;
+}
+
+div.biography {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+div.biography h3 {
+    font-family: var(--first-font-family);
+    color: var(--third-color);
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 4px;
+    margin-top: -100px;
+    padding-left: 10px;
+    text-align: left;
 }
 
 div.biography .span {
     width: 350px;
-    height: 550px;
-    margin-left: 95px;
+    height: 400px;
     padding-top: 15px;
     border: 1px solid var(--tenth-color);
 }
 
 div.biography img {
     width: 90%;
-    }
+}
+
+.hire-me-span{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hire-me {
+    color: var(--third-color);
+    font-size: 17px;
+    border-radius: 7px;
+    border: 1px solid var(--tenth-color);
+    padding: 12px 30px;
+    font-family: var(--second-font-family);
+}
+
+.hire-me-span :nth-child(1):hover{
+    background-color: var(--forth-color);
+    border: none;
+}
+
+.hire-me-span :nth-child(2){
+    border: none;
+    margin-left: 30px;
+    background-color: var(--forth-color);
+}
+
+.hire-me-span :nth-child(2):hover{
+    background: none;
+    border: 1px solid var(--tenth-color);
+}
+
+.hire-me img {
+    rotate: -90deg;
+    margin-left: 10px;
+
+}
+
+.about-text p {
+    font-weight: 700;
+    font-size: 2px;
+}
+
+.description-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-align: left;
+    margin-top: -250px;
+}
+
+.experience {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--second-font-family);
+    font-weight: 100;
+    color: var(--tenth-color);
+}
+
+.experience p {
+    padding-left: 12px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: var(--first-font-family);
+    color: var(--third-color);
+}
+
+.service-div{
+    padding-top: 140px;
+    /* background-color: var(--forth-color); */
+}
+
+.service{
+    font-family: var(--first-font-family);
+    color: var(--nineth-color);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+
+.services{
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+    color: var(--tenth-color);
+}
