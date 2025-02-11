@@ -140,7 +140,7 @@ div.bg-image {
     background-image: url(./IMG/Background.jpg);
     filter: blur(5px);
     -webkit-filter: blur(5px);
-    height: 100%;
+    height: 100vh;
     background-color: var(--second-color);
     background-position: center;
     background-repeat: no-repeat;
