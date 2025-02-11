@@ -595,7 +595,7 @@
         display: block;
         /* float: left; */
         margin-left: 300px;
-        margin-top: -68px;
+        margin-top: -58px;
         position: fixed;
     }
 
@@ -620,6 +620,10 @@
 
     label.link2 a {
         font-size: 15px;
+    }
+
+    .banner-text{
+        margin-top: -200px;
     }
 
     div.biography .span{
