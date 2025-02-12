@@ -483,9 +483,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 80px;
+        padding-top: 100px;
         padding-left: 40px;
         padding-right: 40px;
+        /* padding-bottom: -40px; */
         align-items: center;
     }
     
