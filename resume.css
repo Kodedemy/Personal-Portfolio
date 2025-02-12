@@ -9,6 +9,8 @@
 
 :root{
     --second-color: #020223;
+    --nineth-color: #00b4d8;
+    --tenth-color: #caf0f8;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
     padding-left: 80px;
     padding-right: 80px;
     align-items: center;
+    box-shadow: 2px 4px 12px var(--tenth-color);
 }
 
 .cv img{
