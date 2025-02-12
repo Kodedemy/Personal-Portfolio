@@ -555,6 +555,17 @@
     div.biography .span{
         height: 290px;
     }
+
+    .cv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-left: 30px;
+        padding-right: 30px;
+        /* padding-bottom: -40px; */
+        align-items: center;
+    }
 }
 
 @media screen and (max-width: 400px) {
