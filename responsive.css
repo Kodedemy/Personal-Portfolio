@@ -479,6 +479,20 @@
         height: 330px;
     }
 
+    .cv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        align-items: center;
+    }
+    
+    .cv img{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 440px) {
