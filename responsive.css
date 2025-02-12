@@ -590,7 +590,7 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 375px ) {
     nav #icon {
         display: block;
         /* float: left; */
