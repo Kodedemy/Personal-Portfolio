@@ -403,6 +403,10 @@
     div.intro h1 {
         font-size: 40px;
     }
+
+    .visual p{
+        padding-left: 5%;
+    }
 }
 
 @media screen and (max-width: 592px) {
@@ -492,6 +496,10 @@
     
     .cv img{
         width: 100%;
+    }
+
+    .visual p{
+        padding-left: 5%;
     }
 
 }
@@ -613,6 +621,10 @@
 
     div.biography .span{
         height: 260px;
+    }
+
+    .visual-text{
+        padding: 0px 20px;
     }
 }
 
@@ -763,5 +775,13 @@
 
     div.biography .span{
         height: 170px;
+    }
+
+    .visual-text{
+        padding: 0px 20px;
+    }
+
+    .visual p{
+        padding-left: 5%;
     }
 }
